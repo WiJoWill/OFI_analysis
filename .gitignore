@@ -1,2 +1,6 @@
-# Ignore raw data directory
-data/raw_data/
+# Ignore everything in raw_data
+data/raw_data/*
+
+# Allow Git to track specific files/extensions
+!data/raw_data/*.csv.zst
+!data/raw_data/*.txt
